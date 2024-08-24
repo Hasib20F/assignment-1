@@ -32,20 +32,24 @@ span {
     color: brown;
 }
 
-.res-btn{
+.res-btn {
     border-radius: 6px;
     padding: 10px 18px 10px 18px;
     opacity: 0.8;
     background-color: white;
-    border-style:solid;
+    border-style: solid;
     border-width: 1.5px;
 }
+
 .head-2nd-div {
     background-image: url('../styles/assets/Hero-bg.png');
     height: 615px;
     background-size: cover;
     background-position: center;
     text-align: center;
+    border-style: dashed;
+    border-width: 0.6px 0;
+    border-color: rgb(209, 209, 209);
 }
 
 .hero-bg {
@@ -69,7 +73,7 @@ span {
     border: none;
 }
 
-.btn-1-link{
+.btn-1-link {
     color: aliceblue;
     text-decoration: none
 }
@@ -80,30 +84,94 @@ span {
 
 /* main styles  */
 
+.dev-par {
+    opacity: 0.7;
+    font-weight: 400;
+    padding: 28px 50px 48px 50px;
+    font-size: 15px;
+}
+
 .hero-container {
     margin: 100px;
 }
 
 #hero {
-    text-align: center;
+    background-color: antiquewhite;
     margin: 67px;
+    border-radius: 16px;
+
 }
 
 .hero-nav-1 {
     margin: 36px;
+    text-align: center;
+    padding: 80px 0 0 0;
+
 }
 
-.hero-div {}
+.hero-div {
+    margin: 48px 48px 48px 48px;
+
+}
 
 .hero-con-1 {
     display: flex;
     justify-content: space-between;
+    padding: 0 0 30px 0;
+
+}
+
+.work-1-con {
+    padding: 0 0 50px 0;
 }
 
 
+.work-1 {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 25px 48px 25px 48px;
+    
+}
+
+.work-1-heading {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.work-1-para {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding: 25px 0 25px 0;
+}
+
+.work-1-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+
+.work-2 {
+    border-radius: 16px;
+    padding: 25px 48px 25px 48px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.work-3-con {
+    padding: 20px 0 80px 0;
+}
+
 .support-session {
     background-image: url('../styles/assets/handshake.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    border-radius: 16px;
+
 }
 
 .cur-tar-nav {
@@ -114,10 +182,21 @@ span {
     display: flex;
 }
 
+.u-vid {
+    text-align: center;
+}
+
+.iframe {
+    border-radius: 16px;
+}
+
 /* footer */
 
 #footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 32px 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
