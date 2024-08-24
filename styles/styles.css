@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* header styles  */
+
+header{
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    justify-content :space-between ;
+    align-items: center;
+    margin: 20px 200px 20px 200px;
+}
+
+.name-font{
+    font-weight: 800;
+} 
+
+span{
+    color: brown;
+}
+
+.head-2nd-div{
+    background-image: url('../styles/assets/Hero-bg.png');
+    margin: 20px auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner{
+    margin: ;
+}
+
+/* main styles  */
+
+.hero-container{
+    margin: 100px;
+}
+#hero{
+   text-align: center;
+   margin: 67px;
+}
+
+.hero-nav-1{
+    margin: 36px;
+}
+
+.hero-div{
+    
+}
+
+.hero-con-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.support-session{
+    background-image: url('../styles/assets/handshake.jpg');
+    text-align: center;
+}
+
+.cur-tar-nav{
+    text-align: center;
+}
+
+.Current-target{
+    display: flex;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
